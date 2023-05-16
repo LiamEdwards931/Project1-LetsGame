@@ -404,3 +404,27 @@ input:focus {
         width: 30%;
     }
 }
+
+/*screens 700px or less */
+@media screen and (max-width:700px) {
+    #main-heading {
+        font-size: 100px;
+    }
+
+    #nav-bar {
+        clear: left;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 0;
+        line-height: 25px;
+    }
+
+    #footer-left {
+        left: 0px;
+    }
+
+    #footer-right {
+        right: 0px;
+    }
+
+}
