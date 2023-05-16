@@ -243,3 +243,10 @@ footer i {
     position: relative;
     right: -140px;
 }
+
+/*sign up page*/
+
+/*general style*/
+#signup-body {
+    background: url(../assets/images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
+}
