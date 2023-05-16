@@ -250,3 +250,82 @@ footer i {
 #signup-body {
     background: url(../assets/images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
 }
+
+/*sign up form*/
+#signup-form {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(249, 13, 26, 0.72);
+    padding: 10px 10px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+form h1 {
+    font-family: 'Bruno Ace SC';
+    font-size: 140%;
+    color: white;
+    padding-bottom: 20px;
+}
+
+form label {
+    color: white;
+}
+
+form label,
+input {
+    display: inline-block;
+    width: 75%;
+    box-shadow: 0 0 16px 2px black;
+    margin-bottom: 7px;
+}
+
+form input {
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+}
+
+form select {
+    box-shadow: 0 0 16px 2px black;
+    height: 25px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+}
+
+#submit-button {
+    margin-top: 15px;
+    font-family: 'Bruno Ace SC';
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 16px 2 px rgba(4, 206, 4, 0.664);
+    font-size: 110%;
+    position: relative;
+    bottom: 10px;
+}
+
+input:hover {
+    box-shadow: 0 0 16px 2px rgba(10, 117, 28, 0.973);
+}
+
+input:focus {
+    box-shadow: 0 0 16px 2px rgba(10, 117, 28, 0.973);
+}
+
+/*signup footer*/
+#footer-signup {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+#footer-signup div {
+    margin-top: 30px;
+}
