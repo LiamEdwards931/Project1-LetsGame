@@ -428,3 +428,38 @@ input:focus {
     }
 
 }
+
+/*screens 550px or less */
+@media screen and (max-width:550px) {
+    #nav-bar {
+        line-height: 10px;
+        font-size: 70%;
+    }
+
+    #xbox-container #playtation-container #pc-container {
+        width: 65%;
+    }
+
+    .welcome-section {
+        font-size: 85%;
+    }
+
+    .times-section {
+        font-size: 75%;
+    }
+
+    #navbar-signup {
+        height: fit-content
+    }
+
+    #nav-bar-signup {
+        clear: both;
+        position: relative;
+        float: left;
+        font-size: 15px;
+    }
+
+    #nav-bar-signup li {
+        padding-left: 0px;
+    }
+}
