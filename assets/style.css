@@ -1,0 +1,19 @@
+/*general style rules*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    background: url(../assets/images/orion-nebula-11107_1920.jpg);
+}
+
+h1, h2 {
+    font-family: 'Archivo Black', cursive;
+}
+
+p {
+    letter-spacing: 1px;
+}
