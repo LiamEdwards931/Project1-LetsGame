@@ -362,15 +362,6 @@ input:focus {
 
 /*screens 900px or less*/
 @media screen and (max-width:900px) {
-    #nav-bar {
-        clear: left;
-        float: left;
-        margin-bottom: 10px;
-        margin-right: 0;
-        line-height: 25px;
-        font-size: 90%;
-    }
-
     #logo {
         font-size: 270%;
     }
@@ -411,14 +402,6 @@ input:focus {
         font-size: 100px;
     }
 
-    #nav-bar {
-        clear: left;
-        float: left;
-        margin-bottom: 10px;
-        margin-right: 0;
-        line-height: 25px;
-    }
-
     #footer-left {
         left: 0px;
     }
@@ -431,11 +414,6 @@ input:focus {
 
 /*screens 550px or less */
 @media screen and (max-width:550px) {
-    #nav-bar {
-        line-height: 10px;
-        font-size: 70%;
-    }
-
     #xbox-container #playtation-container #pc-container {
         width: 65%;
     }
@@ -448,18 +426,17 @@ input:focus {
         font-size: 75%;
     }
 
-    #navbar-signup {
+    #navbar-link{
+        clear:both;
+        position: relative;
+        float: left;
+    }
+    
+    #navbar {
         height: fit-content
     }
 
-    #nav-bar-signup {
-        clear: both;
-        position: relative;
-        float: left;
-        font-size: 15px;
-    }
-
-    #nav-bar-signup li {
+    #navbar li {
         padding-left: 0px;
     }
 }
@@ -483,33 +460,16 @@ input:focus {
         left: -50px;
     }
 
-    #logo {
-        position: relative;
-        left: 30px;
-    }
-
-    #signup-form {
+   #signup-form {
         width: 320px;
         height: 450px;
-    }
-
-    #nav-bar-signup {
-        clear: both;
-        position: relative;
-        right: -100px;
     }
 }
 
 /*screens 365px*/
 @media screen and (max-width:365px) {
-    #nav-bar {
-        font-size: 55%;
-    }
-
     #logo {
         font-size: 150%;
-        position: relative;
-        left: 64px;
     }
 
     .welcome-section {
