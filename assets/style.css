@@ -463,3 +463,14 @@ input:focus {
         padding-left: 0px;
     }
 }
+
+/*screens 450px or less*/
+@media screen and (max-width:450px) {
+    footer {
+        font-size: 70%;
+    }
+
+    footer i {
+        font-size: 150%;
+    }
+}
