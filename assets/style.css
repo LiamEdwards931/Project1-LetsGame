@@ -198,3 +198,14 @@ nav li {
     display: inline-block;
     margin-top: 50px;
 }
+
+/*Xbox welcome and meetup style*/
+.x-welcome {
+    background-color: rgba(32, 31, 32, 0.7);
+    box-shadow: 0 0 10px 1px white;
+}
+
+.x-times {
+    background-color: rgba(32, 31, 32, 0.7);
+    box-shadow: 0 0 10px 1px white;
+}
