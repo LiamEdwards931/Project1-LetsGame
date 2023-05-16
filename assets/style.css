@@ -329,3 +329,33 @@ input:focus {
 #footer-signup div {
     margin-top: 30px;
 }
+
+/*media queries*/
+
+/*screen 1250px and less*/
+@media screen and (max-width:1250px){
+    #about-us {
+            height: fit-content;
+    }
+}
+
+/*screens 1150px or less*/
+@media screen and (max-width:1550px) {
+    .welcome-section {
+        width: 100%;
+    }
+
+    .times-section {
+        width: 100%;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    #footer-left {
+        left: -40px;
+    }
+
+    #footer-right {
+        right: -40px;
+    }
+}
