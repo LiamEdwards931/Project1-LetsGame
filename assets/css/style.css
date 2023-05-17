@@ -59,7 +59,7 @@ nav li {
     color: green;
 }
 
-#navbar li a:focus {
+#active {
     color: green;
 }
 
