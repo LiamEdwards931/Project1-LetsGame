@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Bruno Ace SC', cursive;
-    background: url(../assets/images/orion-nebula-11107_1920.jpg);
+    background: url(../images/orion-nebula-11107_1920.jpg);
 }
 
 h1, h2 {
@@ -69,7 +69,7 @@ nav li {
     height: 600px;
     overflow: hidden;
     text-align: center;
-    background: url(../assets/images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
+    background: url(../images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
     background-size: cover;
     padding-bottom: 10px;
 }
@@ -84,7 +84,7 @@ nav li {
 }
 
 #xbox-circle {
-    background: url('../assets/images/Xbox-logo.jpg') no-repeat center center;
+    background: url('../images/Xbox-logo.jpg') no-repeat center center;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -92,7 +92,7 @@ nav li {
 }
 
 #playstation-circle {
-    background: url('../assets/images/Playstation-logo.jpg') no-repeat center center;
+    background: url('../images/Playstation-logo.jpg') no-repeat center center;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -101,7 +101,7 @@ nav li {
 }
 
 #pc-circle {
-    background: url('../assets/images/PC-logo.jpg') no-repeat center center;
+    background: url('../images/PC-logo.jpg') no-repeat center center;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -248,7 +248,7 @@ footer i {
 
 /*general style*/
 #signup-body {
-    background: url(../assets/images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
+    background: url(../images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
 }
 
 /*sign up form*/
