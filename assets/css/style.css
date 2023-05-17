@@ -366,6 +366,16 @@ input:focus {
         font-size: 270%;
     }
 
+    #navbar{
+        height:fit-content;
+    }
+    
+    #navbar-link{
+        clear: both;
+        position: relative;
+        float: left;
+    }
+
     .times-section {
         font-size: 85%;
     }
@@ -409,7 +419,6 @@ input:focus {
     #footer-right {
         right: 0px;
     }
-
 }
 
 /*screens 550px or less */
@@ -427,17 +436,7 @@ input:focus {
     }
 
     #navbar-link{
-        clear:both;
-        position: relative;
-        float: left;
-    }
-    
-    #navbar {
-        height: fit-content
-    }
-
-    #navbar li {
-        padding-left: 0px;
+        font-size:90%;
     }
 }
 
@@ -454,15 +453,13 @@ input:focus {
 
 /*screens 400px or less*/
 @media screen and (max-width:400px) {
-
-    .circle {
-        position: relative;
-        left: -50px;
-    }
-
-   #signup-form {
+    #signup-form {
         width: 320px;
         height: 450px;
+    }
+
+    #navbar-link {
+        font-size: 80%;
     }
 }
 
@@ -472,6 +469,15 @@ input:focus {
         font-size: 150%;
     }
 
+    #navbar-link {
+        font-size: 69%;
+    }
+    
+    .circle {
+        position: relative;
+        left: -23px;
+    }
+    
     .welcome-section {
         font-size: 80%;
         height: 400px;
@@ -494,3 +500,4 @@ input:focus {
         height: 450px;
     }
 }
+
