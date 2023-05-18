@@ -23,16 +23,14 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 -**Index Page about us**
     *The about us section appears immediately and has strong visuals on the three main platforms to immediately give the viewer a context of the page.
-    each of the logos 
-   
+    each of the logos has a small eyecatching heading to give a description on the intended purpose of the page.
 
+![screenshot of the about us section](readme/images/aboutus%20screenshot.jpg)
 
+-**meetup times section**
+    *The meet-up section is broken up into 3 different parts: Xbox, Playstation and PC - this is so it's very clear which meetup you should attend
+    based on the type of platform you play.
+    *The section gives you a welcome to each platform and some suggestions to prepare for the meetup such as having your network ID handy so you can continue to meet up after the event is over.
 
-
-
- 
-
-
-
-
-
+![screenshot of the meetup times section]()
+    
