@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="social-gaming, gaming, gaming-meetup,xbox,playstation,steam,pc">
-    <meta name="" author" content="Liam Edwards">
     <title>let's game</title>
     <!--Font-awesome link-->
     <script src="https://kit.fontawesome.com/2fed14f4e7.js" crossorigin="anonymous"></script>
@@ -28,36 +27,37 @@
             </a>
             <nav id="navbar-link">
                 <ul>
-                    <li id="active"><a href="signup.html" aria-label="go to the sign up page">Sign up</a></li>
-                    <li id="#"><a href="index.html#welcome-start" aria-label="go to the meet up times section">Meetup</a></li>
-                    <li id="#"><a href="index.html#about-us" aria-label="go to the about us section">About Us</a></li>
-                    <li id="#"><a href="index.html" aria-label="go to the homepage section">Home</a></li>
-                    <ul>
+                    <li class="active"><a href="signup.html" aria-label="go to the sign up page">Sign up</a></li>
+                    <li class="#"><a href="index.html#welcome-start" aria-label="go to the meet up times section">Meetup</a></li>
+                    <li class="#"><a href="index.html#about-us" aria-label="go to the about us section">About Us</a></li>
+                    <li class="#"><a href="index.html" aria-label="go to the homepage section">Home</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 <!--signup section--><section>
         <div id="signup-form">
-            <form action=" " method=" ">
+            <form>
                 <h1>Sign Up for an event today!</h1>
-                <label for "fname">First name:</label>
-                <input type="text" id="fname" name="first-name" placeholder="First Name" remember required>
+                <label for ="fname">First name:</label>
+                <input type="text" id="fname" name="first-name" placeholder="First Name" required>
                 <br>
-                <label for "lname">Last name:</label>
+                <label for ="lname">Last name:</label>
                 <input type="text" id="lname" name="last-name" placeholder="Last Name" required>
                 <br>
-                <label for "email">Email Address:</label>
+                <label for ="email">Email Address:</label>
                 <input type="email" id="email" name="email-address" placeholder="Email Address" required>
                 <br>
-                <label for "platform">Choose your platform:</label>
+                <label for ="platform">Choose your platform:</label>
                 <br>
                 <select id="platform">
-                    <option value="xbox" selected required>Xbox</option>
-                    <option value="Playstation" selected required>Playstation</option>
-                    <option value="PC" selected required>PC</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="Playstation">Playstation</option>
+                    <option value="PC">PC</option>
                 </select>
                 <br>
                 <input type="submit" name="Lets Game!" value="Lets Game!" id="submit-button">
+            </form>
         </div>
     </section>
 

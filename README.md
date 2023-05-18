@@ -44,4 +44,12 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 -**sign up page**
     *This page will allow the user to sign up with the lets game community. The sign page has a form that requires the user to enter their first and last names, email address and the type of platform they are playing on.
-    
+
+### Future Features
+
+*The website will have a running server that will take the user to a chatboard after they have signed up. 
+
+## Testing
+
+
+
