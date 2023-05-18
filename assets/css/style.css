@@ -108,7 +108,7 @@ nav li {
 
 }
 
-.circle h1 {
+.circle h2 {
     color: white;
     font-weight: bold;
     box-shadow: 0 0 10px 1px black;
@@ -152,7 +152,7 @@ nav li {
     color:white;
 }
 
-.welcome-section h1 {
+.welcome-section h2 {
     font-family: 'Archivo Black', cursive;
     margin-top: 20px;
 }
@@ -176,7 +176,7 @@ nav li {
     box-shadow: 0 0 10px 1px white;
 }
 
-.times-section h1 {
+.times-section h2 {
     font-family: 'Archivo Black', cursive;
     margin-top: 20px;
 }

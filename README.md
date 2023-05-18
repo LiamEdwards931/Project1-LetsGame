@@ -50,6 +50,7 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 *The website will have a running server that will take the user to a chatboard after they have signed up. 
 
 ## Testing
-
+-HTML
+    
 
 
