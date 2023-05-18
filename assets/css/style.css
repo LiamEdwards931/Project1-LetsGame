@@ -532,6 +532,10 @@ input:focus {
    #navbar{
     width:auto;
     }
+
+    #navbar-link{
+        width:100%;
+    }
 }
 
 /*height media queries*/

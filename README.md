@@ -44,6 +44,7 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 - **sign up page**
   - This page will allow the user to sign up with the lets game community. The sign page has a form that requires the user to enter their first and last names, email address and the type of platform they are playing on.
+  - The sign up form has "required" values set to it so users have to enter there credentials before they can submit the form.
 
 ![Screenshot of the signup page](readme/images/signupscreenshot.jpg)
 
@@ -54,7 +55,7 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 ## Testing
 
 - **HTML**
-    - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamedwards931.github.io%2FProject1-LetsGame%2F)
+  - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliamedwards931.github.io%2FProject1-LetsGame%2F)
 
 - **CSS**
   - No errors returned when passing through [jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliamedwards931.github.io%2FProject1-LetsGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -68,6 +69,37 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 - No pixelation in images used.
 - For list of bugs during development click [here](../Project1-LetsGame/bugs.md)
   
+- **Unfixed Bugs**
+- Tested the website to the best of my ability and couldn't see any apparent bugs that needed fixing.
+
 - **lighthouse score**
 ![Screenshot of website score on lighthouse](readme/images/lighthouse-score.png)
 - lower score on performance due to the file size of the background images.
+- Accesibility score is high due to the contrast of colors and the backgrounds set on containers to ensure good visibility for all content.
+  
+## Deployment
+
+- This site was deployed through Github pages the steps to do so are as follows:
+  - Git add . - in the codeanywhere terminal
+  - Git commit -m"with message of what you are committing"
+  - Git Push - Pushes the code to Git Hub
+  - Go to repository of the website you are working on.
+  - Go to the settings option.
+  - Scroll down to the pages section on the left hand side.
+  - Select the main branch to deploy.
+  - Github will give you the live link for your webpage.
+  - The live site can also be reached here: [Lets Game](https://liamedwards931.github.io/Project1-LetsGame/)
+
+## Credits
+
+- **Content**
+  - The icons used in the Footer and the Meetup section are taken from [Font Awesome](https://fontawesome.com/kits)
+  - Took guidance for box shadow CSS styling from [W3 Schools](https://www.w3schools.com/)
+
+- **Media**
+  - The background image used for the body on the index page is supplied by [Pixabay](https://pixabay.com/)
+  - The background image used in the about-us section was taken from[FreePik](https://www.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds_9970519.htm#query=background%20gaming&position=2&from_view=search&track=ais)
+  - The Xbox logo in the about-us section was taken from [Vecteezy](https://www.vecteezy.com)
+  - The Playstation logo in the about us section was taken from [Pintrest](https://www.pinterest.co.uk/pin/598204763023781305/)
+  - The PC logo in the about us section was taken from [Vecteezy](https://www.vecteezy.com/free-vector/pc-logo)
+

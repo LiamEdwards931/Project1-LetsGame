@@ -20,6 +20,8 @@
   - Footer stuck half way up the page when screen size decreased.
   - Footer overlapped the sign up form when screen height decreased.
   - Labels on form didn't show up above the form input.
+
+I had identified these bugs through testing the media queries on the devtools toolbar, and also running the code through the validator tools.
   
   
   
