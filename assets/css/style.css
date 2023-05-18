@@ -517,3 +517,52 @@ input:focus {
             left: -50px;
         }
 }
+
+/*screens 280px*/
+@media screen and (max-width:280px){
+    #footer-right{
+        margin-right:21px;
+    }
+
+   #signup-form form{
+    position:relative;
+    right:14px;
+   }
+    
+}
+
+/*height media queries*/
+/*920px or below*/
+@media screen and (max-height:920px){
+    #signup-form{
+        position:relative;
+        top:10px;
+        font-size:10px;
+        height:350px;
+    }
+}
+/*800px or below*/
+@media screen and (max-height:800px) {
+    #navbar-link{
+        font-size:91%;
+    }
+}
+
+/*750px or below*/
+@media screen and (max-height:740px){
+    #navbar-link{
+        font-size:88%;
+    }
+}
+
+/*660px or below*/
+@media screen and (max-height:660px){
+    #navbar-link{
+        font-size:60%;
+    }
+
+    #signup-form{
+        padding:none;
+        height:360px;
+    }
+}
