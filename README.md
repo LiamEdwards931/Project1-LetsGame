@@ -36,7 +36,7 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 ![screenshot of the meetup times section](readme/images/meetuptimes%20screenshot.jpg)
 
--**footer**
+- **footer**
     - The footer is fixed to the bottom of the screen and has a contrast to the rest of the site for importance.
     - it has 3 sections of navigation: Social media, Gaming platforms, Social gaming platforms. The social media is for the Lets Game updates and to keep in touch with other gamers. The Gaming platforms is so if the user doesn't have know their gaming ID they can access it through the link and finally the social gaming - this has discord for PC players, twitch and youtube so you can view each others channels if they have one.
 
