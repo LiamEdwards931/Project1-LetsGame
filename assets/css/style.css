@@ -368,7 +368,7 @@ input:focus {
     }
 
     #navbar{
-        height:fit-content;
+        height:auto;
     }
     
     #navbar-link{
@@ -528,7 +528,10 @@ input:focus {
     position:relative;
     right:14px;
    }
-    
+
+   #navbar{
+    width:auto;
+    }
 }
 
 /*height media queries*/
@@ -565,4 +568,35 @@ input:focus {
         padding:none;
         height:360px;
     }
+
+    #footer-signup div{
+        margin:0;
+    }
+
+    #footer-container{
+        height:75px;
+        position:fixed;
+        bottom:0;
+    }
+
 }
+
+/*height 570px or below*/
+@media screen and (max-height:570px){
+    #signup-form{
+        height:270px;
+    }
+
+    form input{
+        height:10px;
+        margin-bottom:8px;
+    }
+
+    #submit-button{
+        height:20px;
+        bottom:15px;
+    }
+
+}
+
+
