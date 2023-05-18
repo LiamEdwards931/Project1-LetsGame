@@ -6,6 +6,8 @@ The purpose of Lets Game is to get people who love gaming to come together to ma
 Its intended audience are people who do not currently have people to play games with or are looking to branch out, they can do this by simply seeing when
 and where there is a meetup.
 
+see the live version [here](https://liamedwards931.github.io/Project1-LetsGame/)
+
 ![Lets Game website viewed on different screen sizes](readme/images/responsive-screenshot.png)
 
 ## Features
@@ -32,5 +34,14 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
     based on the type of platform you play.
     *The section gives you a welcome to each platform and some suggestions to prepare for the meetup such as having your network ID handy so you can continue to meet up after the event is over.
 
-![screenshot of the meetup times section]()
+![screenshot of the meetup times section](readme/images/meetuptimes%20screenshot.jpg)
+
+-**footer**
+    *The footer is fixed to the bottom of the screen and has a contrast to the rest of the site for importance.
+    *it has 3 sections of navigation: Social media, Gaming platforms, Social gaming platforms. The social media is for the Lets Game updates and to keep in touch with other gamers. The Gaming platforms is so if the user doesn't have know their gaming ID they can access it through the link and finally the social gaming - this has discord for PC players, twitch and youtube so you can view each others channels if they have one.
+
+![screenshot of the footer](readme/images/footer%20screenshot.png)
+
+-**sign up page**
+    *This page will allow the user to sign up with the lets game community. The sign page has a form that requires the user to enter their first and last names, email address and the type of platform they are playing on.
     
