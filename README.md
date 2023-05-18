@@ -29,20 +29,20 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 ![screenshot of the about us section](readme/images/aboutus%20screenshot.jpg)
 
-- **meetup times section**
+- **Meetup times section**
   - The meet-up section is broken up into 3 different parts: Xbox, Playstation and PC - this is so it's very clear which meetup you should attend
     based on the type of platform you play.
   - The section gives you a welcome to each platform and some suggestions to prepare for the meetup such as having your network ID handy so you can continue to meet up after the event is over.
 
 ![screenshot of the meetup times section](readme/images/meetuptimes%20screenshot.jpg)
 
-- **footer**
+- **Footer**
   - The footer is fixed to the bottom of the screen and has a contrast to the rest of the site for importance.
   - it has 3 sections of navigation: Social media, Gaming platforms, Social gaming platforms. The social media is for the Lets Game updates and to keep in touch with other gamers. The Gaming platforms is so if the user doesn't have know their gaming ID they can access it through the link and finally the social gaming - this has discord for PC players, twitch and youtube so you can view each others channels if they have one.
 
 ![screenshot of the footer](readme/images/footer%20screenshot.png)
 
-- **sign up page**
+- **Sign up page**
   - This page will allow the user to sign up with the lets game community. The sign page has a form that requires the user to enter their first and last names, email address and the type of platform they are playing on.
   - The sign up form has "required" values set to it so users have to enter there credentials before they can submit the form.
 
@@ -61,16 +61,40 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
   - No errors returned when passing through [jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliamedwards931.github.io%2FProject1-LetsGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - **Feature testing**
-- Tested all links - working as intended, all external links open in new tab with relevant aria-labels.
-- Media queries tested as thoroughly as I could, no errors from what I have tested.
-- Webpage is responsive to a minimum width of 320px
-- Devtool tested the webpage using different screen sizes and no errors from what I have tested.
-- Index page lines vertically when screen size changes allowing clear information.
-- No pixelation in images used.
-- For list of bugs during development click [here](../Project1-LetsGame/bugs.md)
+  - Tested all links - working as intended, all external links open in new tab with relevant aria-labels.
+  - Media queries tested as thoroughly as I could, no errors from what I have tested.
+  - Webpage is responsive to a minimum width of 320px
+  - Devtool tested the webpage using different screen sizes and no errors from what I have tested.
+  - Index page lines vertically when screen size changes allowing clear information.
+  - No pixelation in images used.
+ 
+## BUGS
+
+### Index Page
+
+- Fixed bugs
+  - Navigation bar wouldn't respond when screen size changed.
+  - Circle divs in about us section were too far to the left when screen size decreased.
+  - Footer disappeared when content pushed it down on index page.
+  - Meet up section overlapped when screen size decreased.
+  - Links wouldn't connect to the section ID's
+  - About-us section kept overlapping the meetup section
+  
+### Signup Page
+
+- Fixed Bugs
+  - Header pushed to the left when screen size decreased.
+  - Form on submit sent you to a new page with a 404 error.
+  - Form submit button was smaller than the text content.
+  - Footer wouldn't stick to the bottom of the page.
+  - Footer stuck half way up the page when screen size decreased.
+  - Footer overlapped the sign up form when screen height decreased.
+  - Labels on form didn't show up above the form input.
+
+I had identified these bugs through testing the media queries on the devtools toolbar, and also running the code through the validator tools.
   
 - **Unfixed Bugs**
-- Tested the website to the best of my ability and couldn't see any apparent bugs that needed fixing.
+  - Tested the website to the best of my ability and couldn't see any apparent bugs that needed fixing.
 
 - **lighthouse score**
 ![Screenshot of website score on lighthouse](readme/images/lighthouse-score.png)
