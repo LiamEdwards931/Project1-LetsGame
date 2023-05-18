@@ -573,7 +573,7 @@ input:focus {
         margin:0;
     }
 
-    #footer-container{
+    #footer-signup #footer-container{
         height:75px;
         position:fixed;
         bottom:0;
