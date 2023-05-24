@@ -67,7 +67,7 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
   - Devtool tested the webpage using different screen sizes and no errors from what I have tested.
   - Index page lines vertically when screen size changes allowing clear information.
   - No pixelation in images used.
- 
+
 ## BUGS
 
 ### Index Page
@@ -97,6 +97,7 @@ I had identified these bugs through testing the media queries on the devtools to
   - Tested the website to the best of my ability and couldn't see any apparent bugs that needed fixing.
 
 - **lighthouse score**
+
 ![Screenshot of website score on lighthouse](readme/images/lighthouse-score.png)
 - lower score on performance due to the file size of the background images.
 - Accesibility score is high due to the contrast of colors and the backgrounds set on containers to ensure good visibility for all content.
