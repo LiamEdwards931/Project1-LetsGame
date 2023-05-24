@@ -27,7 +27,9 @@ see the live version [here](https://liamedwards931.github.io/Project1-LetsGame/)
     - [Index Page](#index-page)
     - [Signup Page](#signup-page)
   - [Deployment](#deployment)
+  - [Cloning repository](#cloning-repository)
   - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
@@ -48,7 +50,9 @@ see the live version [here](https://liamedwards931.github.io/Project1-LetsGame/)
 
 - Lets Game started by sketching a design in a notebook and mindmapping the ideas I had for the initial prototype.
 - I then used Visual Studio desktop version to layout a rough idea of the styles I was looking for in the project, I experimented with different box-shadows, contrasting colors and which logos I would like to use and what opacity the background of the divs should be to create a website that is both easy to read and good to look at.
-  
+ 
+ [home](<lets game>) 
+
 ## Site structure
 
 - The header nav bar is fixed to the top of the page so no matter where you scroll you can always navigate to the page or section you want.
@@ -66,7 +70,9 @@ see the live version [here](https://liamedwards931.github.io/Project1-LetsGame/)
 - **Color Scheme**
   - The main colors used in Lets Game are black and white with background images on the body and the about-us section. 
     -The reason these two colors were chosen was because of the high contrast between the two colors and how it flowed with the background image used on the body, to give the entire page a nice sci-fi feel to it. 
-    - The background image used in the about-us section and the sign up body was chosen due to it's great contrast to the body image, the style of the image always lures you in to draw your attention to the sign up form. 
+    - The background image used in the about-us section and the sign up body was chosen due to it's great contrast to the body image, the style of the image always lures you in to draw your attention to the sign up form.
+
+[home](<lets game>)
 
 ## Features
 
@@ -106,6 +112,8 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 
 ![Screenshot of the signup page](readme/images/signupscreenshot.jpg)
 
+[home](<lets game>)
+
 ### Future Features
 
 - The website will have a running server that will take the user to a chatboard after they have signed up.
@@ -119,6 +127,8 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
   - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
   - [CodeAnywhere](https://codeanywhere.com/signin)
   - [GitHub](https://github.com/)
+
+[home](<lets game>)
     
 ## Testing
 
@@ -139,6 +149,8 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
     - [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ&exp=e00)
     - [Google Chrome](https://www.google.com/chrome/)
     - [FireFox](https://www.mozilla.org/en-GB/firefox/new/?utm_medium=paidsearch&utm_source=google-rsa&utm_campaign=fxeu&utm_content=A144_A203_302582&gclid=CjwKCAjw67ajBhAVEiwA2g_jECRPdogz3fnztw2XKZjIiZ9baxIdSChKdQAKiUuOZn-c_aDezOeEixoCfqQQAvD_BwE)
+
+[home](<lets game>)
 
 ## BUGS
 
@@ -164,6 +176,8 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
   - Labels on form didn't show up above the form input.
 
 I had identified these bugs through testing the media queries on the devtools toolbar, and also running the code through the validator tools.
+
+[home](<lets game>)
   
 - **Unfixed Bugs**
   - Tested the website to the best of my ability and couldn't see any apparent bugs that needed fixing.
@@ -174,16 +188,33 @@ I had identified these bugs through testing the media queries on the devtools to
 
 - lower score on performance due to the file size of the background images.
 - Accesibility score is high due to the contrast of colors and the backgrounds set on containers to ensure good visibility for all content.
+
+[home](<lets game>)
   
 ## Deployment
 
 - This site was deployed through Github pages the steps to do so are as follows:
-  - Go to repository of the website you are working on.
-  - Go to the settings option.
-  - Scroll down to the pages section on the left hand side.
-  - Select the main branch to deploy.
-  - Github will give you the live link for your webpage.
+  1. Go to repository of the website you are working on.
+  2. Go to the settings option.
+  3. Scroll down to the pages section on the left hand side.
+  4. Select the main branch to deploy.
+  5. Github will give you the live link for your webpage.
   - The live site can also be reached here: [Lets Game](https://liamedwards931.github.io/Project1-LetsGame/)
+  - The repository for this site can be reached here: [Lets Game Repository](https://github.com/LiamEdwards931/Project1-LetsGame)
+
+[home](<lets game>)
+
+ ## Cloning repository
+ 
+1. On your GitHub repository navigate to your repository page.
+2. Click on the green button with "CODE" written in it.
+3. Go to the HTTPS and copy the URL by pressing the overlapping squares.
+4. Open Git Bash.
+5. Enter  git clone followed by the copied URL. 
+6. Enter where you would like your repository to be saved too for your local file.
+7. Press Enter to finalise the clone.
+
+[home](<lets game>)
 
 ## Credits
 
@@ -197,3 +228,15 @@ I had identified these bugs through testing the media queries on the devtools to
   - The Xbox logo in the about-us section was taken from [Vecteezy](https://www.vecteezy.com)
   - The Playstation logo in the about us section was taken from [Pintrest](https://www.pinterest.co.uk/pin/598204763023781305/)
   - The PC logo in the about us section was taken from [Vecteezy](https://www.vecteezy.com/free-vector/pc-logo)
+
+[home](<lets game>)
+  
+  ## Acknowledgements
+  
+  - Lets Game is a fictional company but is inspired by my own and other peoples experiences when you are a but prohibited from playing with other people because you don't have the same console or you don't enjoy the same games. 
+  - This project was created for the level 3 diploma Full Stack Developer with the [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjw67ajBhAVEiwA2g_jEKYbx7CDH4ExZGh3udf-5qh-Ee91R2MXr7F5M4UdbdDhV-c-QZ-_zxoCyW4QAvD_BwE)
+  - [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for the constructive feedback with my milestone project.
+
+Liam Edwards 2023.
+
+[home](<lets game>)
