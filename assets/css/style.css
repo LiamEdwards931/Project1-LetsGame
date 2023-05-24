@@ -34,6 +34,7 @@ p {
     position: fixed;
     top: 0;
     overflow: hidden;
+    z-index:10;
 }
 
 #navbar-link{
@@ -250,6 +251,7 @@ footer i {
 /*general style*/
 #signup-body {
     background: url(../images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg) center center no-repeat;
+    height:100vh;
 }
 
 /*sign up form*/
@@ -262,8 +264,13 @@ footer i {
     margin-bottom: 40px;
     margin: 0 auto;
     position: relative;
-    top: 150px;
+    top: 30%;
     margin-bottom:40px;
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
 }
 
 form h1 {
@@ -330,11 +337,6 @@ input:focus {
 
 #footer-signup div {
     margin-top: 30px;
-}
-
-#content{
-    width:100%;
-    height:100vh;
 }
 
 /*media queries*/
@@ -552,8 +554,6 @@ input:focus {
 /*920px or below*/
 @media screen and (max-height:920px){
     #signup-form{
-        position:relative;
-        top:10px;
         font-size:10px;
         height:350px;
     }
