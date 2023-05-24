@@ -10,6 +10,64 @@ see the live version [here](https://liamedwards931.github.io/Project1-LetsGame/)
 
 ![Lets Game website viewed on different screen sizes](readme/images/responsive-screenshot.png)
 
+## Contents
+
+- [LETS GAME](#lets-game)
+  - [Contents](#contents)
+  - [User Experience](#user-experience)
+  - [Inspiration](#inspiration)
+  - [Site structure](#site-structure)
+  - [Design choices](#design-choices)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+  - [Technologies used](#technologies-used)
+  - [Testing](#testing)
+  - [BUGS](#bugs)
+    - [Index Page](#index-page)
+    - [Signup Page](#signup-page)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+
+## User Experience
+
+- ### User Stories
+
+- Lets Game should be easy to understand.
+- Lets Game should have a style that is relevant to the subject.
+- As a user I would expect to have relevant information to be able to understand the purpose.
+- As a user I would expect to see images that are related to the subject matter. 
+- As a user I would expect to see information about how many people will be in attendance. 
+- As a user I would expect to be able to meet up with other gamers based on the platform I play. 
+- As a user I would expect to be able to connect with live updates through social media. 
+- As a user I would expect to be able to view other peoples gaming channels.
+  
+[home](<lets game>)
+
+## Inspiration
+
+- Lets Game started by sketching a design in a notebook and mindmapping the ideas I had for the initial prototype.
+- I then used Visual Studio desktop version to layout a rough idea of the styles I was looking for in the project, I experimented with different box-shadows, contrasting colors and which logos I would like to use and what opacity the background of the divs should be to create a website that is both easy to read and good to look at.
+  
+## Site structure
+
+- The header nav bar is fixed to the top of the page so no matter where you scroll you can always navigate to the page or section you want.
+- The home page is the primary page and the link to it is the top of the page function in the navigation bar this is accessible at all times.
+- The meet-up button is also available at any point and this will take you to the meet up times section of the page.
+- The sign-up button is available at all times and will take you the sign-up page section which will give some more insight into the Lets Game Meetups.
+
+ ## Design choices
+
+- **Font style**
+  - The two styles chosen were Bruno Ace SC & Archivo Black.
+    - 'Bruno Ace' was chosen as the main body font this was due to it's digital feel, this would appeal to the gaming communitity and pursue them to read into the content and explore the site in more dppth. 
+    - 'Archivo Black' was chosen as the heading font this was due to it's easy to read feel and good contrast from the digital style of the 'Bruno' font.
+  
+- **Color Scheme**
+  - The main colors used in Lets Game are black and white with background images on the body and the about-us section. 
+    -The reason these two colors were chosen was because of the high contrast between the two colors and how it flowed with the background image used on the body, to give the entire page a nice sci-fi feel to it. 
+    - The background image used in the about-us section and the sign up body was chosen due to it's great contrast to the body image, the style of the image always lures you in to draw your attention to the sign up form. 
+
 ## Features
 
 ### Existing Features
@@ -51,7 +109,17 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 ### Future Features
 
 - The website will have a running server that will take the user to a chatboard after they have signed up.
+  
+  [home](<#lets-game>)
 
+## Technologies used 
+
+- This webpage was created using:
+  - [HTML5](https://html.spec.whatwg.org/)
+  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+  - [CodeAnywhere](https://codeanywhere.com/signin)
+  - [GitHub](https://github.com/)
+    
 ## Testing
 
 - **HTML**
@@ -67,6 +135,10 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
   - Devtool tested the webpage using different screen sizes and no errors from what I have tested.
   - Index page lines vertically when screen size changes allowing clear information.
   - No pixelation in images used.
+  - Tested on browsers:
+    - [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ&exp=e00)
+    - [Google Chrome](https://www.google.com/chrome/)
+    - [FireFox](https://www.mozilla.org/en-GB/firefox/new/?utm_medium=paidsearch&utm_source=google-rsa&utm_campaign=fxeu&utm_content=A144_A203_302582&gclid=CjwKCAjw67ajBhAVEiwA2g_jECRPdogz3fnztw2XKZjIiZ9baxIdSChKdQAKiUuOZn-c_aDezOeEixoCfqQQAvD_BwE)
 
 ## BUGS
 
@@ -99,15 +171,13 @@ I had identified these bugs through testing the media queries on the devtools to
 - **lighthouse score**
 
 ![Screenshot of website score on lighthouse](readme/images/lighthouse-score.png)
+
 - lower score on performance due to the file size of the background images.
 - Accesibility score is high due to the contrast of colors and the backgrounds set on containers to ensure good visibility for all content.
   
 ## Deployment
 
 - This site was deployed through Github pages the steps to do so are as follows:
-  - Git add . - in the codeanywhere terminal
-  - Git commit -m"with message of what you are committing"
-  - Git Push - Pushes the code to Git Hub
   - Go to repository of the website you are working on.
   - Go to the settings option.
   - Scroll down to the pages section on the left hand side.
@@ -127,4 +197,3 @@ I had identified these bugs through testing the media queries on the devtools to
   - The Xbox logo in the about-us section was taken from [Vecteezy](https://www.vecteezy.com)
   - The Playstation logo in the about us section was taken from [Pintrest](https://www.pinterest.co.uk/pin/598204763023781305/)
   - The PC logo in the about us section was taken from [Vecteezy](https://www.vecteezy.com/free-vector/pc-logo)
-
