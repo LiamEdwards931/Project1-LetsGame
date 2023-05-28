@@ -157,25 +157,29 @@ the navigation bar has 4 links: home, about us, meetup and sign up, Allowing for
 ### Index Page
 
 - Fixed bugs
-  - Navigation bar wouldn't respond when screen size changed.
-  - Circle divs in about us section were too far to the left when screen size decreased.
-  - Footer disappeared when content pushed it down on index page.
-  - Meet up section overlapped when screen size decreased.
-  - Links wouldn't connect to the section ID's
-  - About-us section kept overlapping the meetup section
+  - Navigation bar wouldn't respond when screen size changed. (Fixed by changing the position of the nav bar to fixed and slightly increased padding)
+  - Circle divs in about us section were too far to the left when screen size decreased. (fixed by adding code: clear:both and margin:0 auto;)
+  - Footer disappeared when content pushed it down on index page.(fixed by adding using overflow:hidden;)
+  - Meet up section overlapped when screen size decreased.(fixed by adding extra margin between the 3 containers )
+  - Links wouldn't connect to the section ID's (changed the relative file path to each link for the fix.)
+  - About-us section kept overlapping the meetup section (fixed by using height:fit-content;)
   
 ### Signup Page
 
 - Fixed Bugs
-  - Header pushed to the left when screen size decreased.
-  - Form on submit sent you to a new page with a 404 error.
-  - Form submit button was smaller than the text content.
-  - Footer wouldn't stick to the bottom of the page.
-  - Footer stuck half way up the page when screen size decreased.
-  - Footer overlapped the sign up form when screen height decreased.
-  - Labels on form didn't show up above the form input.
+  - Header pushed to the left when screen size decreased. (fixed by changing the width of the header on media queries)
+  - Form on submit sent you to a new page with a 404 error. (removed the action from the form for the fix so it now refreshes page.)
+  - Form submit button was smaller than the text content. (increased height of the button for the fix)
+  - Footer wouldn't stick to the bottom of the page. (created a container for both the form and the footer to keep it fixed to the bottom)
+  - Footer stuck half way up the page when screen size decreased. (same fix as above.)
+  - Footer overlapped the sign up form when screen height decreased. (Above solution fixed this.)
+  - Labels on form didn't show up above the form input.(changed the syntax on the labels to ensure they were done correctly.)
 
 I had identified these bugs through testing the media queries on the devtools toolbar, and also running the code through the validator tools.
+
+The site was tested during the development stage and ironed out some of the above problems during the development stage.
+The site was also tested again prior to pushing to github using devtools, to ensure that the site was working correctly. 
+The site was then tested again after deployment to ensure that the site worked on the cloud server and not just locally,this again was tested with Devtools.
 
 [home](<lets game>)
   
